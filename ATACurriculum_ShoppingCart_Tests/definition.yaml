@@ -1,0 +1,19 @@
+version: "2016-11-18"
+stack:
+  name: ShoppingCartStack
+  applications:
+    ATACurriculum_ShoppingCart:
+      type: brazil/codedeploy
+      codeURI: ../../
+      packages:
+        ATACurriculum_ShoppingCart_Tests:
+          buildTargetAliases:
+            default: release
+          isVersionSetTarget: true
+      versionSet: ATACurriculum_ShoppingCart/V2Cohort1
+steps:
+  build:
+    type: build
+workflows:
+  default:
+  - build
