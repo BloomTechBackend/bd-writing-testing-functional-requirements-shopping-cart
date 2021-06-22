@@ -11,3 +11,10 @@ To learn about the `ShoppingCart` class, locate the javadocs folder, right click
 ##Instructions
 You are to create at least three new test cases for the `ShoppingCartTest` class.
 Open the `shopping_cart_test_cases.md` file under the `tst` directory for further instruction, and for example test cases.
+
+##Running your tests
+Type the command:
+
+`./gradlew clean  -q :test --tests "com.amazon.ata.shoppingcart*"`
+
+Into your terminal.
