@@ -1,7 +1,10 @@
-# ebd-backend-1-shopping-cart
+# Shopping Cart
+
+## Repo
 
 GitHub repo: [ebd-backend-1-shopping-cart](https://github.com/LambdaSchool/ebd-backend-1-shopping-cart)
 
+## Intro
 This activity is an exercise for participants to create a test plan,
 and to implement them as test methods that get called in a DIY test harness (based on a main() method)
 
@@ -10,11 +13,11 @@ automated tests to test the class's behavior. **You may not modify the `Shopping
 
 To learn about the `ShoppingCart` class, locate the javadocs folder, right click `index.html` and open in a browser.
 
-##Instructions
+## Instructions
 You are to create at least three new test cases for the `ShoppingCartTest` class.
 Open the `shopping_cart_test_cases.md` file under the `tst` directory for further instruction, and for example test cases.
 
-##Running your tests
+## Running your tests
 Type the command:
 
 `./gradlew clean -q :test`
