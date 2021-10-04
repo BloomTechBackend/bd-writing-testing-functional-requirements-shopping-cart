@@ -1,4 +1,4 @@
-# bd-backend-1-shopping-cart
+# bd-writing-testing-functional-requirements-shopping-cart
 
 This activity is an exercise for participants to create a test plan, and to implement them as ~test methods that get called in a DIY test harness (based on a main() method).
 
